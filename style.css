@@ -39,16 +39,17 @@
   font-size: 28px;
 }
 
-.home-page-info .links{
-  padding-top: 130px;
-}
-
 .links {
  position: absolute;
+ padding-top: 130px;
  top: 80%;
  right: 44%; 
  font-size: 70px;
  word-spacing: 45px;
+}
+
+.links a {
+  color: black;
 }
 
 .Personal-portfolios {
@@ -61,5 +62,11 @@
 .portfolio {
   margin: 0px;
   padding: 0px;
+  text-align: center;
+}
+
+.about-me {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-wrap: nowrap;
   text-align: center;
 }
